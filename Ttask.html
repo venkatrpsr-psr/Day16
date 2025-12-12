@@ -5,7 +5,7 @@
   <title>Simple To‑Do</title>
 </head>
 <style>
-  
+
     body {
       font-family: Arial, sans-serif;
       background-color: #90bdea;
@@ -20,23 +20,11 @@
       margin-bottom: 20px;
     }
 
-    #itemInput {
-      padding: 10px;
-      font-size: 16px;
-      width: 250px;
-      margin-right: 10px;
-      border: 2px solid #ccc;
-      border-radius: 5px;
-    }
-
-    button {
-      padding: 10px 15px;
-      font-size: 16px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
+     input, button {
+      padding: 8px;
+       margin-top: 10px;
+       width: 20%;
+       border-radius: 5px;
     }
 
     button:hover {
@@ -58,7 +46,7 @@
 </style>
 <body>
   <h2>My List</h2>
-  <input id="itemInput" type="text" placeholder="Enter Here">
+  <input id="itemInput" type="text" placeholder="Enter Here"><br>
   <button onclick="addItem()">Add</button>
 
   <ul id="list"></ul>
